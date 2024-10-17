@@ -34,7 +34,7 @@
     /* box-shadow: 5px 5px 0px white; */
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
     .main {
       background-color: lightblue;
     }
