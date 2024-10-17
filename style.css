@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
-    background-color: black;
+    /* color: white; */
+    background-color: lightblue;
     overflow: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
+    background-color: black;
     position: absolute;
 }
 #heading{
@@ -30,6 +30,8 @@
     display: flex;
     padding: 10px;
     flex-direction: column;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 0px white; */
 }
 
 @media only screen and (max-width: 300px) {
@@ -40,9 +42,6 @@
         width: 90vw;
     } 
   }
-/* @media screen and(min-width: 720px){
-    
-} */
 
 .section-container{
     display: flex;
