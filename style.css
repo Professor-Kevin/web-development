@@ -32,11 +32,17 @@
     flex-direction: column;
 }
 
-@media screen and(max-width: 720px){
+@media only screen and (max-width: 300px) {
+    .main {
+      background-color: lightblue;
+    }
     .container{
         width: 90vw;
     } 
-}
+  }
+/* @media screen and(min-width: 720px){
+    
+} */
 
 .section-container{
     display: flex;
