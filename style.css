@@ -34,11 +34,14 @@
     /* box-shadow: 5px 5px 0px white; */
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .container{
         width: 90vw;
     } 
   }
+/* @media screen and(min-width: 720px){
+    
+} */
 
 .section-container{
     display: flex;
@@ -93,4 +96,10 @@
 button:hover{
     color: black;
     background-color: white;
+}
+
+.message{
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 10px;
 }
